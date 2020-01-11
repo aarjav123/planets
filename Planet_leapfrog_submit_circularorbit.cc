@@ -155,7 +155,7 @@ int main()
 
   double dt = 0.001 ; // time per step
   double t = 0.0 ; // start time
-  int N = 10000 ;  // number of steps to make
+  int N = 500000 ;  // number of steps to make
 
   LeapfrogDynamics( a , dt , t , N , c ) ; 
   
